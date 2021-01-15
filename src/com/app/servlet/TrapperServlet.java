@@ -23,6 +23,8 @@ public class TrapperServlet extends HttpServlet {
 	   String lvn=null; //logical view name(jsp page name)
 	   String target=null;
 	   RequestDispatcher rd=null;
+        int i=10;
+        int j=20;
        try {
 	   //Action Management
 	   path=req.getServletPath();//gives lang.do or countries.do
