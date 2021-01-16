@@ -12,6 +12,8 @@ import om.app.handler.Handler;
 import om.app.handler.LangugesHandler;
 /*to make any class as servlet class extends
  from HttpServlet predefined class*/
+
+@RestController
 public class TrapperServlet extends HttpServlet {
 
 	@Override
