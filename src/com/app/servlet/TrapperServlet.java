@@ -25,6 +25,7 @@ public class TrapperServlet extends HttpServlet {
 	   RequestDispatcher rd=null;
         int i=10;
         int j=20;
+        int k=30;
        try {
 	   //Action Management
 	   path=req.getServletPath();//gives lang.do or countries.do
